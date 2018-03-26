@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+	<!-- 10.1.66.21:1433 -->
+		<property name="jdbcUrl">jdbc:sqlserver://10.1.85.82:1433;DatabaseName=cjmis</property>
+		<property name="driverClass">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="user">cjmis</property>
+		<property name="password">cjmis</property>
+		<property name="acquireIncrement">3</property>
+		<property name="initialPoolSize">5</property>
+		<property name="minPoolSize">2</property>
+		<property name="maxPoolSize">8</property>
+	</default-config>
+</c3p0-config>

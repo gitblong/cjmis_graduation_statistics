@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <changes>
+  	<value id="00" name="在读"/>
+    <value id="01" name="留级"/>
+    <value id="03" name="休学"/>
+    <value id="04" name="复学"/>
+    <value id="05" name="转学（出）"/>
+    <value id="06" name="转学（入）"/>
+    <value id="08" name="转专业"/>
+    <value id="10" name="转班"/>
+    <value id="11" name="保留入学资格"/>
+    <value id="14" name="恢复学籍"/>
+    <value id="16" name="退学"/>
+    <value id="18" name="转教学点"/>
+    <value id="22" name="开除学籍"/>
+  </changes>
+</root>

@@ -1,0 +1,36 @@
+body{ margin:0; font:12px Tahoma; color:black;overflow:hidden }
+td {
+	FONT-SIZE: 9pt;
+	font-family: "￿￿";
+	color: #000000;
+	line-height: 14pt;
+}
+/*DIV￿￿￿￿/
+/*￿￿Ϣ*/
+form{margin:0px}
+div{overflow:hidden;}
+
+.Menu_frame {float:center;width:190px;margin:0 auto;padding:0;}
+
+/* Moz */
+.Menu_onmouseout {float:center;margin:0;width:180px;color:#2e5489;margin:0 0 5px 0;padding:3px;cursor:pointer;border:1px #5f8ab3 solid} 
+.Menu_onmouseover {float:center;margin:0;width:180px;color:#ffffff;background-color:#5f8ab3;margin:0 0 5px 0;padding:3px;cursor:pointer;border:1px #5f8ab3 solid} 
+
+
+.Menu_s_frame {float:center;width:170px;margin:0 0 5px 15px;padding:0}
+.Menu_s_onmouseout {float:left;margin:0 0 2px 0;width:100%;color:#5f8ab3;padding:2px;cursor:pointer}
+.Menu_s_onmouseover {float:left;margin:0 0 2px 0;width:100%;color:#ffffff;padding:2px;cursor:pointer;background-color:#5f8ab3}
+
+
+a.song:link {
+	float:left;margin:0 0 2px 0;width:100%;color:#5f8ab3;padding:2px;cursor:pointer;text-decoration:none
+}
+a.song:hover {
+	float:left;margin:0 0 2px 0;width:100%;color:#5f8ab3;padding:2px;cursor:pointer;background-color:#edf6ff;text-decoration:none
+}
+a.song:visited {
+	float:left;margin:0 0 2px 0;width:100%;color:#5f8ab3;padding:2px;cursor:pointer;text-decoration:none;
+}
+a.song:active {
+	float:left;margin:0 0 2px 0;width:100%;color:#5f8ab3;padding:2px;cursor:pointer;background-color:#edf6ff;text-decoration:none
+}

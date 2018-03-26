@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>cjmis_graduation_statistics</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CollegeServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.CollegeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProfessionalServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.ProfessionalServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeachingPointServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.TeachingPointServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GradeServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.GradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeachingPartServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.TeachingPartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProfessionTypeServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.ProfessionTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProfessionLevelServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.ProfessionLevelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ClassesServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.ClassesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.StudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExportStudentServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.ExportStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExportPageServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.ExportPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadExcelServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.DownloadExcelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WaitServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.WaitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadExcelServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.UploadExcelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadExcelByUploadExcelServlet</servlet-name>
+    <servlet-class>edu.zjnu.graduation_statistics.web.servlet.DownloadExcelByUploadExcelServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>CollegeServlet</servlet-name>
+    <url-pattern>/CollegeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProfessionalServlet</servlet-name>
+    <url-pattern>/ProfessionalServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeachingPointServlet</servlet-name>
+    <url-pattern>/TeachingPointServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GradeServlet</servlet-name>
+    <url-pattern>/GradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeachingPartServlet</servlet-name>
+    <url-pattern>/TeachingPartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProfessionTypeServlet</servlet-name>
+    <url-pattern>/ProfessionTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProfessionLevelServlet</servlet-name>
+    <url-pattern>/ProfessionLevelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClassesServlet</servlet-name>
+    <url-pattern>/ClassesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/StudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportStudentServlet</servlet-name>
+    <url-pattern>/ExportStudentServlet</url-pattern>
+    
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportPageServlet</servlet-name>
+    <url-pattern>/ExportPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadExcelServlet</servlet-name>
+    <url-pattern>/DownloadExcelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WaitServlet</servlet-name>
+    <url-pattern>/WaitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadExcelServlet</servlet-name>
+    <url-pattern>/UploadExcelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadExcelByUploadExcelServlet</servlet-name>
+    <url-pattern>/DownloadExcelByUploadExcelServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>/WEB-INF/graduation_unPass_statistics.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

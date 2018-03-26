@@ -1,0 +1,45 @@
+html,body{
+		height: 100%;
+}
+body {
+	margin: 0;
+	font: 12px Tahoma;
+	color: black;
+	overflow: hidden;
+	background-color: #5f8ab3;
+}
+
+td {
+	FONT-SIZE: 9pt;
+	font-family: "￿￿";
+	color: #000000;
+	line-height: 14pt;
+}
+
+.txt_title_white {
+	font-size: 9pt;
+	font-family: "￿￿";
+	color: #FFFFFF;
+	font-weight: bold;
+	line-height: 14pt;
+}
+
+.table_1 {
+	background-color: #5f8ab3;
+}
+
+.table_2 {
+	background-color: #CAD8E6;
+}
+
+
+
+/*DIV￿￿￿￿/
+/*￿￿Ϣ*/
+
+form {
+	margin: 0px
+}
+
+
+/*div{overflow:hidden}*/

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <part>
+    <value id="01" name="浙江杭州地区"/>
+    <value id="02" name="浙江绍兴地区"/>
+    <value id="03" name="浙江宁波地区"/>
+    <value id="04" name="浙江湖州地区"/>
+    <value id="05" name="浙江嘉兴地区"/>
+    <value id="06" name="浙江金华地区"/>
+    <value id="07" name="浙江丽水地区"/>
+    <value id="08" name="浙江温州地区"/>
+    <value id="09" name="浙江台州地区"/>
+    <value id="10" name="浙江衢州地区"/>
+	<value id="11" name="浙江舟山地区"/>
+    <value id="12" name="甘肃省"/>
+	<value id="13" name="青海省"/>
+	<value id="14" name="江西省"/>
+	<value id="15" name="云南省"/>
+	<value id="16" name="广东省"/>
+	<value id="17" name="广西壮族自治区"/>
+    <value id="18" name="内蒙古自治区"/>
+  </part>
+</root>

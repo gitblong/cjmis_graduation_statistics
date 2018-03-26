@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <branches>
+    <value id="01" name="哲学"/>
+    <value id="02" name="经济学"/>
+    <value id="03" name="法学"/>
+    <value id="04" name="教育学"/>
+    <value id="05" name="文学"/>
+    <value id="06" name="历史学"/>
+    <value id="07" name="理学"/>
+    <value id="08" name="工学"/>
+    <value id="09" name="农学"/>
+    <value id="10" name="医学"/>
+    <value id="11" name="管理学"/>
+    <value id="12" name="艺术类"/>
+    <value id="13" name="文史类"/>
+  </branches>
+  <structure>
+    <value id="1" name="1年"/>
+    <value id="2" name="2年"/>
+    <value id="2.5" name="2.5年"/>
+    <value id="3" name="3年"/>
+    <value id="4" name="4年"/>
+    <value id="4.5" name="4.5年"/>
+    <value id="5" name="5年"/>
+    <value id="5.5" name="5.5年"/>
+    <value id="6" name="6年"/>
+  </structure>
+  <type>
+    <value id="1" name="函授"/>
+    <value id="2" name="脱产"/>
+    <value id="3" name="夜大"/>
+    <value id="4" name="普通"/>
+    <value id="5" name="其它"/>
+    <value id="6" name="业余"/>
+    <value id="7" name="业余(夜大)"/>
+  </type>
+  <level>
+    <value id="1" name="专升本"/>
+    <value id="2" name="高起专"/>
+    <value id="3" name="第二专科"/>
+    <value id="4" name="高起本"/>
+    <value id="5" name="第二本科"/>
+    <value id="6" name="专科"/>
+    <value id="7" name="本科"/>
+    <value id="8" name="硕士研究生"/>
+    <value id="9" name="博士研究生"/>
+  </level>
+  <professionaltype>
+    <value id="1" name="教师类"/>
+    <value id="2" name="非教师类"/>
+  </professionaltype>
+</root>
